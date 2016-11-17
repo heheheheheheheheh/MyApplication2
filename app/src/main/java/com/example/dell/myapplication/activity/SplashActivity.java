@@ -29,8 +29,9 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
                 SystemClock.sleep(2000);
                 startActivity(new Intent(SplashActivity.this, MainActivity.class));
+                finish();
             }
-        });
+        }).start();
     }
 
     private void initView() {
