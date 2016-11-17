@@ -1,7 +1,9 @@
-package com.example.dell.myapplication;
+package com.example.dell.myapplication.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.dell.myapplication.R;
 
 public class MainActivity extends AppCompatActivity {
 
